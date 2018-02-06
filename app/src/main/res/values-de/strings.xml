@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="Typos">Nock Nock (BETA)</string>
+
+    <string name="everything_checks_out">Alles in Ordnung</string>
+    <string name="something_wrong">Es trat ein Fehler auf! Klicken für Details.</string>
+    <string name="checking_status">Prüft Status...</string>
+    <string name="waiting">Warten...</string>
+
+    <string name="no_sites_added">Keine Seiten vorhanden!</string>
+
+    <string name="about">Über</string>
+    <string name="about_body"><b>Nock Nock</b>, eine einfache App designt von <b>Aidan Follestad</b>.<br/>         <a href=\'https://aidanfollestad.com\'>Webseite</a>&amp;nbsp;&amp;nbsp;         <a href=\'https://twitter.com/afollestad\'>Twitter</a>&amp;nbsp;&amp;nbsp;         <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&amp;nbsp;&amp;nbsp;         <a href=\'https://github.com/afollestad\'>GitHub</a>&amp;nbsp;&amp;nbsp;         <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a>         <br/><br/><i>Nock Nock ist OpenSource! Besuche das <a href=\'https://github.com/afollestad/nock-nock\'>GitHub Repository</a>!</i>         <br/>Icon von <a href=\'https://plus.google.com/+KevinAguilarC\'>Kevin Aguilar</a> of <b>221 Pixels</b>.</string>
+    <string name="dismiss">Verwerfen</string>
+    <string name="add_site">Seite hinzufügen</string>
+    <string name="site_name">Seiten Name</string>
+    <string name="site_url">Seiten URL</string>
+    <string name="check_interval">Prüf Intervall</string>
+    <string name="done">Fertig</string>
+    <string name="please_enter_name">Bitte trage einen Namen ein!</string>
+    <string name="please_enter_url">Bitte trage eine URL ein.</string>
+    <string name="please_enter_valid_url">Bitte trage eine gültige URL ein.</string>
+
+    <string name="timeout">Zeitüberschreitung! Server scheint offline.</string>
+    <string name="options">Optionen</string>
+    <string name="already_checking_sites">Seiten werden bereits geprüft!</string>
+    <string name="remove_site">Seite Entfernen</string>
+    <string name="remove_site_prompt">Seite <b>%1$s</b> entfernen?</string>
+    <string name="remove">Entfernen</string>
+    <string name="save">Speichern</string>
+    <string name="view_site">Seite Anzeigen</string>
+    <string name="last_check_result">Letztes Ergebnis</string>
+    <string name="next_check">Nächste Prüfung</string>
+    <string name="none_turned_off">None (deaktiviert)</string>
+    <string name="none">None</string>
+
+    <string name="refresh_status">Aktualisieren</string>
+    <string name="swipe_refresh_hint">Ziehe die Liste nach unten um manuell zu Aktualisieren! Ansonsten wird im Hintergrund nach Ablauf des Intervalls Aktualisiert.</string>
+    <string name="understood">Verstanden!</string>
+
+    <string name="warning_http_url">Warnung: Die App überprüft die Erreichbarkeit des Server mit einem HTTP Request. Es ist empfohlen eine HTTP URL zu verwenden.</string>
+    <string name="default_js">var responseObj = JSON.parse(response);\n
+ return responseObj.success === true;</string>
+    <string name="function_declaration">function validate(response) {</string>
+    <string name="function_end">}</string>
+    <string name="response_validation_mode">Antwort Validierungsmethode</string>
+    <string name="search_term">Suchbegriff...</string>
+
+    <string name="validation_mode_status_desc">Der HTTP Status Code wird überprüft. bei einem erfolgreichen Code ist der Test bestanden.</string>
+    <string name="validation_mode_term_desc">Zuerst wird der Status Code überprüft. Bei Erfolg wird im Body nach dem Suchbegriff gesucht. Enthält der Body diesen ist der Test bestanden.</string>
+    <string name="validation_mode_javascript_desc">Zuerst wird der Status Code überprüft. Bei Erfolg wird der Body an die JavaScript Methode gegeben. Wenn diese true returnt, ist der Test bestanden. Werfe eine Exception um eigene Fehlermeldungen an Nock Nock zu geben.</string>
+
+    <string-array name="interval_options">
+        <item>Minute(n)</item>
+        <item>Stunde(n)</item>
+        <item>Tag(e)</item>
+        <item>Woche(n)</item>
+    </string-array>
+
+
+    <string-array name="response_validation_options">
+        <item>Status Code</item>
+        <item>Suchbegriff</item>
+        <item>JavaScript Validierung</item>
+    </string-array>
+
+</resources>
